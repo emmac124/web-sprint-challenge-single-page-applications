@@ -1,6 +1,5 @@
 import {Route, Link} from 'react-router-dom';
 import PizzaForm from './components/PizzaForm';
-import Form from './components/Form'
 import React, {useState, useEffect} from 'react';
 import schema from './validation/schema';
 import * as yup from 'yup';

@@ -15,4 +15,5 @@ export default yup.object().shape({
     spinach: yup.boolean(),
     special: yup
     .string()
+    .required('This section is required, if no special instructions type n/a')
 })
